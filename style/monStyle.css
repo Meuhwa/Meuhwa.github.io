@@ -1,9 +1,10 @@
 html{
-	background : rgb(230,250,255) ;
+	background : rgb(255, 255, 255) ;
 }
 
 body{
     font-family: Lato;
+    font-size:20px;
 }
 
 header{
@@ -14,6 +15,11 @@ header{
     font-weight: 750;
     background-color: rgba(1, 180, 180, 0.600);
     height: 110px;
+    margin-top: -30px;
+}
+
+#pres{
+    font-size:2.4rem;
 }
 
 #imgIcone{
@@ -32,14 +38,14 @@ header{
 }
 
 .boutonsAccueil{
-    background-color: #e3eff9;
-    color: #fff;
+    background-color: #ffffff;
+    
     font-size: 20px;
     font-family: "Lato";
 }
 
 .boutonsAccueil:hover {
-    background-color: #97c2ef;
+    background-color: #dce3e5;
 }
 
 .boutons {
@@ -54,25 +60,72 @@ header{
     font-size: 16px;
 }
 
-#lienAccueil {
+.lienAccueil {
     color: #000; /* Couleur de votre choix */
     text-decoration: none;
 }
 
-div{
-    margin-bottom:-15px;
+.headerTitle{
+    font-size: larger;
+    margin-bottom: -30px;
 }
 
-#presentation{
-    font-size: 18px;
+#presentationMoi{
+    font-size: 20px;
 }
 
-#logoRS{
-    width: 50px;
+.logoRS{
+    img{
+        width:60px;
+        height: 60px;
+        margin-right: 4px;
+    }
     text-decoration: none;
+    display:flex;
+    align-items: center;
 }
 
 #contact{
     font-size: 20px;
-    align-content: center;
+    display:flex;
+    flex-direction: column;
+    a{
+        text-decoration: none;
+        color:#000;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+}
+
+#contactTitre{
+    font-size:2rem;
+    margin-bottom: 0px;
+}
+
+#cvDiv{
+    img{
+        width:900px;
+    }
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#centreItitre{
+    font-size:39px;
+}
+
+#centreInteret{
+    p{
+        font-size: 100%;
+
+    }
+}
+
+.CIcontent{
+    width:1300px;
+    margin-left: 8px;
+    margin-top: -15px;
+    text-align:justify; 
 }
