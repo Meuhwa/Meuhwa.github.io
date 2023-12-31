@@ -1,3 +1,5 @@
+/* quelques erreurs w3c que je n'arrive pas à régler */
+
 html{
 	background : rgb(255, 255, 255) ;
 }
@@ -16,6 +18,10 @@ header{
     background-color: rgba(1, 180, 180, 0.600);
     height: 110px;
     margin-top: -30px;
+}
+
+.headerTitle{
+	margin-bottom:35px;
 }
 
 #pres{
@@ -80,7 +86,7 @@ header{
         height: 60px;
         margin-right: 4px;
     }
-    text-decoration: none;
+    text-decoration:none;
     display:flex;
     align-items: center;
 }
@@ -119,7 +125,6 @@ header{
 #centreInteret{
     p{
         font-size: 100%;
-
     }
 }
 
